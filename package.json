@@ -1,0 +1,28 @@
+{
+  "name": "esim-bot_mvp",
+  "version": "1.0.0",
+  "description": "Telegram eSIM bot MVP on TypeScript + Telegraf",
+  "main": "dist/bot.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bot.js",
+    "dev": "ts-node src/bot.ts"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "esim",
+    "telegraf",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
